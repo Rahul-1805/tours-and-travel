@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Enquiry Form</title>
+</head>
+<body>
+    <div id="box"></div>
+    <br>
+    <div class="container">
+        <form>
+            <h1>Enquiry Form</h1>
+            <hr>
+            <p>Name: <input type="text" name="name" placeholder="Full Name" autofocus/></p>
+            <p>Email: <input type="email" name="email" placeholder="Email ID"/></p>
+            <p>Address: <textarea name="address" cols="100" rows="8" placeholder="Building"></textarea></p>
+            <p>Pincode: <input type="number" name="pincode" placeholder="000 000"/></p>
+            <p>DOB: <input type="date" name="date"/></p>
+            <p>Contact: <input type="number" name="conatct" id="contact" placeholder="+91 1234567890"/></p>
+            <fieldset>
+                <legend>Gender</legend>
+                <p>
+                    Male<input type="radio" name="Gender" /> 
+                    Female<input type="radio" name="Gender"/>
+                    Other<input type="radio" name="Gender" />
+                </p>
+            </fieldset>
+            <p>Occupation: 
+                <select name="Card Type" id="card type">
+                    <option value="">--select--</option>
+                    <option value="Buisness">Buisness</option>
+                    <option value="Public">Public</option>
+                    <option value="Private">Private</option>
+                    <option value="Student">Student</option>
+                    <option value="Housewife">Housewife</option>
+                    <option value="Other">Other</option>
+                </select>
+            </p>
+            <input type="submit" name="Submit"/>
+        </form>
+    </div>
+    <br>
+    
+</body>
+
+<script src="BDC.js"></script>
+
+</html>
